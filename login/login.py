@@ -14,10 +14,8 @@ frame_derecha = tk.Frame(ventana, width=200, height=400, bg="lightgray")
 frame_derecha.pack(side="right", fill="both", expand=True)
 
 logo_label = tk.Label(frame_izquierda, text="Volleyball Store", font=("CALIBRI", 16), bg="royal Blue")
-logo_label.pack(pady=20)
-logo = tk.PhotoImage(file="C:\Users\carlo\Desktop\python\Diccionarios\logo.png") 
-logo_label = tk.Label(frame_izquierda, image=logo)
-logo_label.pack(pady=20)
+logo_label.pack(pady=200)
+
 
 titulo_label = tk.Label(frame_derecha, text="Inicio de Sesión", font=("Arial", 18))
 titulo_label.pack(pady=20)
